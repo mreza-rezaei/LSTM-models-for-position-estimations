@@ -1,7 +1,5 @@
 
-## A LSTM for 2D position estimatin  
-
-## Position X estimation with LSTM
+## A LSTM for 1D position X estimatin 
 
 ### import packages
 1- `matplotlip ` for drwaing results
