@@ -373,8 +373,6 @@ print('RMSE Estmation X=%f'%rmsX)
 ### plot and save prediction Y Train path
 
 
-#As an example, I plot an example 1000 values of the x velocity (column index 0), both true and predicted with the Wiener filter
-#Note that I add back in the mean value, so that both true and predicted values are in the original coordinates
 plt.figure(num=None, figsize=(12, 6))
 
 plt1=plt.plot(y_predic[:,1],'b',label="EstimatedTrainPath-Y")
@@ -391,8 +389,6 @@ plt.savefig('EstimatedTrainPath-Y.png',format='png', dpi=1000,transparent=False)
 
 
 ```python
-#As an example, I plot an example 1000 values of the x velocity (column index 0), both true and predicted with the Wiener filter
-#Note that I add back in the mean value, so that both true and predicted values are in the original coordinates
 plt.figure(num=None, figsize=(12, 6))
 
 plt1=plt.plot(y_predic[:],'b',label="EstimatedTrainPath-X")
