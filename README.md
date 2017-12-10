@@ -1,6 +1,6 @@
 # LSTM-models-for-position-estimations
 
-## A LSTM for 2D position estimatin  
+## A LSTM for 1D position Y estimatin  
 
 ### import packages
 1- `matplotlip ` for drwaing results
